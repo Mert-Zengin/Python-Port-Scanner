@@ -28,7 +28,7 @@ def print_results():
 		print 'Port %d: OPEN' % (i,)
 
 if __name__ == '__main__':
-	max_port = 1025 #Highest port to scan
+	max_port = 65500 #highest port to scan
 	target = sys.argv[1]
 	target_ip = gethostbyname(target)
    	print 'Starting scan on host:', target_ip
